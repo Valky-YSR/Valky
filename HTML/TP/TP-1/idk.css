@@ -1,0 +1,25 @@
+/* 1. selecteur qui possede l'attribut */
+input [name]   
+{
+    background-color: red;
+}
+/* 2. seleceteur d'attribut qui a exactement la valeur */
+input [name="nom"]
+{
+     background-color: rgb(34, 0, 128); 
+}
+/* 3. selecteur d'attribut qui a la valeur qui commence par */
+input [name^=tel]
+{
+    background-color: green;
+}
+/* 4. slecteur d'attribut qui a la valeur qui termine par */
+input [name $= nom]
+{
+    background-color: yellow;
+}
+/* 5. selecteur d'attribut qui a la valeur qui contient ... */
+input [name *=ma]
+{
+    background-color: aqua;
+}

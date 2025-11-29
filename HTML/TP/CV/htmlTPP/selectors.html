@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Tp3</title>
+</head>
+<body>
+    <h1>Les selecteurs complexes</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit ipsum nisi, a ex dolor aliquid necessitatibus fuga nihil ea at totam nostrum doloribus iusto dicta omnis qui? Soluta, eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem rerum, ut voluptatem pariatur consequuntur odio id, sint eaque vero eos. Obcaecati debitis quod harum sequi accusamus, totam doloremque architecto.</p>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet dolor ipsam dolore saepe, delectus modi maxime, consequatur nulla quis culpa in molestiae. Ullam quaerat voluptas placeat qui doloremque esse.</p>
+        </section>
+    </div>
+    <h2>kalbon</h2>
+    <p>mkvnsdknvsdkvnwd</p>
+    <p>nfvbvsdvvklv</p>
+    <section>
+        <p></p>
+        <p></p>
+    </section>
+</body>
+<style>
+    /* selecteur universaile */
+    *
+        {
+            background-color: aqua;
+        }
+    /* 2/selecteur de tous les documents (fils) */
+    div p
+        {
+            background-color: aqua;
+        }
+    /* 3/ selecteur des descendants(files)directes  */
+    div>p 
+        {
+            background-color: blueviolet;
+        }
+    /* 4/ selcteur adjascents () */
+    div~p
+        {
+            background-color: blue;
+        }
+    /* 5/ selecteur de 1er frere (immediat) */
+    div+p
+        {
+            background-color: bisque;
+        }  
+</style>
+</html>

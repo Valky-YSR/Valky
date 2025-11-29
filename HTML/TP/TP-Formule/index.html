@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Formulaire</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <!--les Champs-->
+            <h3>Authentification</h3>
+            <input type="text" required placeholder="Username">
+            <br>
+            <input type="password" placeholder="Password">
+
+            <!--les button du champs-->
+
+                <br>
+                <input type="reset">
+                <input type="submit">
+                
+        </fieldset>
+<br>
+<hr>
+<br>
+       <!--TP2-->
+       <fieldset>
+           <legend><b>Vos coordonnées</b></legend>
+           <table>
+           <!--nom-->
+           <tr>
+               <td><label>Nom: </label></td>
+               <td><input type="text" placeholder="votre nom"></td> 
+           </tr>
+           <!--Prénom-->
+           <tr>
+                <td><label>Prénom: </label></td>
+                <td><input type="text" placeholder="votre Prénom"></td>
+           </tr>  
+           <!--Date de naissance-->
+           <tr>
+                <td><label">Date de naissance: </label></td>
+                <td><input type="date"></td>
+           </tr>
+           <!--Mail-->
+           <tr>
+                <td><label">Mail: </label></td>
+                <td><input type="email" placeholder="votre mail" pattern="[A-Za-z0-9_.]+@ofppt\.ma"></td>
+           </tr>
+           <!--site-->
+           <tr>
+                  <td><label>Votre site :</label></td>
+                  <td><input type="url"></td>
+           </tr>
+           <!--Code-->
+           <tr>
+                <td><label>Code :</label></td>
+                <td><input type="password"></td>
+            </tr>
+           <!--Genre-->
+           <tr>
+               <td><label>Genre: </label></td>
+               <td><input type="radio" name="genre">Homme</td>
+               
+            
+           </tr>
+           <tr>
+               <td></td>
+               <td><input type="radio" name="genre">Femme</td>
+           </tr>
+           <!--Pays-->
+           <tr>
+              <td><label>Pays: </label></td>
+              <td>
+                  <select>
+               <option>votre pays 1</option>
+               <option>votre pays 2</option>
+               <option>votre pays 3</option>
+                  </select></td>
+            </tr> 
+        </table>
+       </fieldset>
+<br>
+<hr>
+<br>
+       <!-- Gouts-->
+       <fieldset>
+           <legend><b>Vos gouts</b></legend>
+           <input type="checkbox"><label>Tarte aux fraises à la créme d amandes</label>
+           <br>
+           <input type="checkbox"><label>Tarte aux prunes</label>
+           <br>
+           <input type="checkbox"><label>Tarte nistique aux mirabelles de Lorraine, noisettes et miel<label>
+           <br>
+           <textarea placeholder="Décriver vos goutes en Détail" rows="5" cols="50" ></textarea>
+       </fieldset>
+
+       <!-- les outiels-->
+<br>
+<hr>
+<br>
+       <fieldset>
+           <legend><b>Envoyer nous votre photo</b></legend>
+           <input type="file">
+           <br>
+           <br>
+           <input type="reset" value="Effacer">
+           <input type="submit" value="Envoyer">
+       </fieldset>
+        
+    </form>
+    
+</body>
+</html>

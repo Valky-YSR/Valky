@@ -1,0 +1,11 @@
+en html, l'id doit être unique dans un document, cela signifie qu'un même (identifiant) id ne peut etre attribue a plusieurs elements
+•lorsqu'une classe (class)et un identifiant (id) sont utilises dans une feuille de style CSS pour un element, l'identifiant l'emporte tjrs sur la classe en cas d'un chevauchement.
+•une element peut avoir plusieurs clases, et     des regles definies pour ces classes seront appliques
+
+
+les selcteurs complexe
+
+
+code source 
+chemin relatif 
+presentation powerpoint

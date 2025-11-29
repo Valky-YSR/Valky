@@ -1,0 +1,26 @@
+.article
+{
+    height: 300px;
+    width: 300px;
+    background-color: #C0C0C0;
+}
+.details
+{   
+    background-color: #4477FF;
+    border: 2px dotted rgba(0,0,0,0.3);
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    width: 29.7vh;
+    height: 12vh;
+}
+.fix
+{
+    background-color: #3355FF;
+    width: 80px;
+    height: 30px;
+    position: fixed;
+    color: white;
+    right: 0;
+    bottom: 0;
+}

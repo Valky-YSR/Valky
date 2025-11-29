@@ -1,0 +1,30 @@
+div
+{
+    border: 1px solid black;
+}
+.block2
+{
+    background: #3489db;
+    height: 40px;
+    float: right;
+    margin: 5px;
+    color: #fff;
+}
+.block3
+{
+    background: #d35400;
+    height: 40px;
+    margin: 5px;
+    color: #fff;
+    clear: both;
+    float: right;
+}
+.block4
+{
+    background: #48d8a8;
+    height: 40px;
+    margin: 5px;
+    color: #fff;
+    float: right;
+    clear: both;
+}

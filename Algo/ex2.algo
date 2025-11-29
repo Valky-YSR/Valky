@@ -1,0 +1,16 @@
+algorithme ex2
+Variables
+    Tab1 : tableau n(9) : Reel
+    Tab2 : tableau n(9) : Reel
+    Tab_sum : tableau n(9) : Reel
+    i : entier
+Début
+    Tab1 <- [4,8,7,9,1,5,4,6]
+    Tab2 <- [7,6,5,2,1,3,7,4]
+    pour i de 1 a 9 faire
+        Tab_sum[i] <- Tab1[i] + Tab2[i]
+    fin_pour 
+    pour i de 1 a 9 faire
+        ecrire (Tab_sum[i])
+    fin_pour 
+Fin

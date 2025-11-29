@@ -1,0 +1,44 @@
+float
+la propriete float en css est utilise pour positionner un element sur le cote gauche ou droit de son contenu et permettre au contnu a adjacent de s'ecouler autour de cet eleementt. elle
+est souvent utilise pour creer des mises en pages ou positionner des images avec du texte qui les entoure.
+
+les valeurs de la propriete float
+
+1. none (par defaut)
+l'element n'est pas flottant, il reste dans le flux normal du document.
+
+2. left
+l'element est flottant a gauche du conteneur. le contenu s'encoule autour du cote droit de l'element flottant
+
+3. right
+l'element est floattant a droite de conteneur. le contenu suivant s'enroule autour du cote gauche de l'element flottant
+lorsqu'un element est flottant, les autres elements du document peuvent l'ignorer, ce qui peur creer des problemes de mise en pages. pour resoudre cela, on utilise la propriete "clear"
+
+
+2. la propriete clear
+les valeurs de la propriete clear
+
+1. none (par defaut)
+aucun effet, les elements peuvent s'enroule autour des flottant]
+
+2. left
+empeche l'element de signifier a gauche d'un element flottant
+
+3. right
+"" "" "" "" "" "" "" """ "" droite "" "" "" ""
+
+4.both
+""" a cote d'element floattant que ce sont a gauche ou a droite.
+
+la propriete "OverFlow"
+
+la propriete overflow en css est utilise pour gerer la maniere dont le contenu d'un element est affiche lorsqu'il depasser les dimensions de son conteneur. elle est partiellement utile
+pour controller le comportement des debordement dans les mises an page.
+
+les valeurs de overflow
+
+1.visible (par defaut)
+le contenu qui deborder au conteneur reste visible,aucun decoupe ou boire du defilement est applique
+
+2. hidden
+

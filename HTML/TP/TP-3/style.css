@@ -1,0 +1,14 @@
+h1{
+            color:#424242;
+            font-weight: lighter;
+            font-family:Courier, monospace;
+}
+u{
+            color: #335BC4;
+}
+hr{
+           width: 700px;
+}
+body{
+           place-items: center;
+}

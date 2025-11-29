@@ -1,0 +1,12 @@
+algorithme ex1
+Variables n, s: entier
+début
+    ecrire ("Entrez un nombre : ")
+    lire (n)
+    Si n > 0 alors 
+    ecrire ("Le nombre de valuer positive est : "n)
+    ecrire ("Le nombre de valuer negative est : "-n)
+    sinon
+    ecrire ("Le nombre de valuer negative est : "-n)
+    ecrire ("Le nombre de valuer positive est : "n)
+fin

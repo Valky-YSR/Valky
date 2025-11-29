@@ -1,0 +1,33 @@
+
+.container
+{
+    border: 1px solid rgb(21, 145, 187);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 1px 2px 8px black;
+    
+}
+.t1
+{
+    border: 2px solid red;
+    margin-top: 15px;
+    padding: 5px 5px 5px 5px ;
+}
+.t2
+{
+    border: 2px solid green;
+    border-style: dashed;
+    margin-top: 15px;
+    padding: 5px 5px 5px 5px ;
+}
+.t3
+{
+    border: 2px solid orange;
+    border-style: dotted;
+    margin-top: 15px;
+    padding: 5px 5px 5px 5px ;
+}

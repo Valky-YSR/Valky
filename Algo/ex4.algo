@@ -1,0 +1,32 @@
+algorithme
+  tab : tableau[100] : entier
+  i : entier
+  s : entier
+  max : entier
+  min : entier
+début
+  pour i de 1 à 100 faire
+    ecrire("veuillez saisir les notes : ")
+    lire(tab[i])
+    si tab[i] < 0 ou tab[i] > 20 alors
+      ecrire("veuillez saisir une note entre 0 et 20")
+    fin_si
+  fin_pour
+  s <- 0
+  pour i de 1 à 100 faire
+    s <- s + tab[i]
+  fin_pour
+  max <- tab[1]
+  min <- tab[1]
+  pour i de 2 à 100 faire
+    si tab[i] > max alors
+      max <- tab[i]
+    fin_si
+    si tab[i] < min alors
+      min <- tab[i]
+    fin_si
+  fin_pour
+  ecrire("la moyenne des valeurs du tableau est :", s/100)
+  ecrire("la valeur max du tableau est :", max)
+  ecrire("la valeur min du tableau est :", min)
+fin

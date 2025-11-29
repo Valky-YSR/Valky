@@ -1,0 +1,25 @@
+.block2
+{
+    background: #3489db;
+    height: 40px;
+    float: left;
+    margin: 5px;
+    color: #fff;
+}
+.block3
+{
+    background: #d35400;
+    height: 40px;
+    float: right;
+    margin: 5px;
+    color: #fff;
+}
+.block4
+{
+    background-color: #48d8a8;
+    height: 40px;
+    clear: both;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+}

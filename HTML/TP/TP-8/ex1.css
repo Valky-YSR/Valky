@@ -1,0 +1,13 @@
+div
+{
+    border: 1px solid (0,0,0,0,0);
+    text-align: center;
+    color: #fff;
+}
+.box
+{
+    float: left;
+    background-color: #3489db;
+    height: 40px;
+    margin: 5px;
+}

@@ -1,0 +1,20 @@
+list.append() adds an object to the list
+list.insert(2, "Pomme") adds an object in between a list and moves the one u replaced next to it
+list.extend(liste2) adds a second list in the end of the first list
+
+suppression
+
+lise1.remove(20) removes 20 from list1
+list1.pop(2) same thing but u give it an index instad of a value
+iiste1.clear() removes the whole list
+liste1.del(1)
+
+
+enumerate's syntax
+for index, value in enumerate ()
+	print(index,"<--",valeur)
+
+titres = []
+auteurs = []
+fot titre,auteur in zip (tittres,auteurs):
+print(tire, "")

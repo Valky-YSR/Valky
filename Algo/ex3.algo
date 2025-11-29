@@ -1,0 +1,18 @@
+algorithme
+variables
+    tab1 : tableau n(5) : entier
+    tab2 : tableau n(3) : entier
+    tab_schtroumpf : tableau n(5) : entier
+    i ,s : entier
+Début
+    tab1 <- [4, 8, 7, 9, 1]
+    tab2 <- [7, 6, 5]
+    s <- 0
+    pour i de 1 à 5 faire
+        tab_schtroumpf[i] <- tab1[i] * tab2[i]
+        s <- s + tab_schtroumpf[i]
+    fin_pour
+    pour i de 1 à 5 faire
+        ecrire(tab_schtroumpf[i])
+    fin_pour
+Fin

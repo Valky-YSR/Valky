@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+    font-size: 1em;
+}
+h1{
+    font-family: Arial, Helvetica, serif;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    color: #454545;
+    font-weight: bold;
+}
+.p1{
+    color: #7a7a7a;
+    margin-left: 20px;
+    margin-top: 1.5em;
+}
+blockquote{
+    font-style: italic;
+    font-size: 1.2em;
+    margin-right: 0px 80px 20px 60px;
+    background-color: #bdd3e4;
+    color: #444;
+    border-left: solid 5px #8870ff;
+    padding: 15px;
+
+}
+em{
+    display: block;
+    text-align: right;
+}
+a{
+    color: #8870ff;
+    margin-left: 20px;
+}

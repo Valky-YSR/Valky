@@ -1,0 +1,20 @@
+les pseudo elements en css permettent de styler des parties specifiques d'un element sans modifier son html contrairement aux pseudo-classes, les pseudo-elements utilisent une double panctuation (::)
+ 
+syntaxe;
+selector::pseudo-element-name
+{
+    property: values;
+    property: values;
+}
+2 . CSS
+selecteur           exemple                          description
+::after             p::after                    inserer un contenu apres un element
+::before            p::before                   inserer un contenu avant un element
+::first-letter      p::first-letter             first letter of each p
+::first-line        p::first-line               selectionneer le premier lettre de 
+                                                chaque elmnt p
+::marker            ::marker                    select the marks of elemnts of lists
+::selection         p::selection                select a part of element (p)selected by user
+
+
+

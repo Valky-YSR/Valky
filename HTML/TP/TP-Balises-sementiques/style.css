@@ -1,0 +1,29 @@
+section { min-height: 100vh; padding: 20px;}
+body {
+  overflow: hidden;
+
+  
+}
+#a{
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    background-color: rgb(205, 240, 240);
+    border-right: solid 5px #8870ff;
+    
+    
+    
+    
+    
+}
+.ul {
+    list-style: none;
+    display: flex;
+    gap : 20px;
+}
+.s{
+    color: blue;
+}
+nav {
+    display: block;
+}

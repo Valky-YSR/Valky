@@ -1,0 +1,23 @@
+algorithme matrice
+    Variables   n, m, p, k : entier
+    tableau: M1, M2 : reel
+Début
+   
+    Pour i ← 1 à n Faire
+        Pour j ← 1 à m Faire
+            S[i][j] ← M1[i][j] + M2[i][j]
+        FinPour
+    FinPour
+
+    Pour i ← 1 à n Faire
+        Pour j ← 1 à p Faire
+            P[i][j] ← 0
+            Pour k ← 1 à m Faire
+                P[i][j] ← P[i][j] + M1[i][k] * M2[k][j]
+            FinPour
+        FinPour
+    FinPour
+
+    Écrire ("Somme :", S)
+    Écrire ("Produit :", P)
+Fin

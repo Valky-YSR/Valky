@@ -1,0 +1,38 @@
+2 CSS
+
+proppriete , position
+
+la propriete position en css est utilise pour specifier le methode de postionnement d'un element dans un doc, elle permet d'un element de determiner comment un element est place par rapport 
+a son conteneur ou d'autres element les differents valeurs sont :
+
+1. Static (par defaut)
+
+les elements sont positionnees selon le flux normal du documents 
+> les proprietes du top.right,bottom,left n;est aucun effet
+> l'elements est simplement emplace selon l'ordre des elements dans l/html
+
+2. Relative
+
+l'element est positionne par rapport a sa position initiale dans le flux de documents 
+> les proprietes top,right,bottom,left deplacent l;element par rapport a sa position d'origine 
+> l'espace initiale occupe par l'elements reste reserve 
+
+3. absolute 
+ 
+l'element est positionne par rapport a son conteneur "le plus qui a une position autre que static", sinon il est positionne par rapport a <body>
+
+> l'element est retire de flux normal, ce qui signifie qu'il n reserve plus d'espace dans le documents
+> les proprietes top,right,bottom,left definissent la positio exacte, 
+
+4. Fixed
+
+l'element est positionne par rapport a la fenetre de l'utilisateur et il ne bouge pas lors de defilements 
+
+> l'element est retire de flux normal
+> ideal pour creer les barres de navigation fixes 
+
+5. Sticky
+
+l'element est positionne en fonction du defilement il agit comme "relative" jusqu'a ce qu'un point specifier soit atteint, puis comme fixed
+> l'element combine le comportemen de "relative", et "fixed"
+> necessite un valeur tpo,left,right,bottom

@@ -1,0 +1,59 @@
+1. C'est quoi la commande pour pour afficher le chemin en Terminal ?
+A) pwd
+B) ls
+C) touch
+A
+
+2. C'est quoi la fonction correcte pour afficher des éléments en Python ?
+A) console.log
+B) write
+C) print
+C
+
+3. C'est quoi le language le plus uilisé en creation des jeux ?
+A) Python
+B) C++
+C) Java
+B
+
+4. C'est quoi le systeme d'exploitation le plus utilise dans tous le monde ?
+A) macOS
+B) Linux
+C) Windows
+A 
+
+5. C'est quoi le code pour afficher H₂O en HTML
+A) <p>H<sup>2</sup>O</p>
+B) <p>H<sub>2</sub>O</p>
+C) <p>H20</p>
+B
+
+6. C'est quoi l'attribut correct pour que un choix dans un formule est obligée ?
+A) obliged
+B) required
+C) obligated
+B
+
+7. C'est quoi le plus navigateur securisé ?
+A) Google chrome
+B) Firefox
+C) Tor browser
+C
+
+8.C'est quoi le plus editeur de code uilisé ?
+A) Cursor 
+B) NeoVim
+C) Visual studio code
+C
+
+9. C'est quoi le syntaxe pour la fonction input en Python ?
+A) nput=("message")
+B) nput("message")
+C) nput(message)
+B
+
+10. Comment faire un commentaire en HTML ?
+A)# message 
+B)<!-- message -->
+C)/* message */
+B

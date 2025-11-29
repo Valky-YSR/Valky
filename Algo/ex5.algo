@@ -1,0 +1,17 @@
+algorithme val_max
+variable T[]
+variables i, j : entier
+max : entier
+Début
+    max ← T[0][0]
+
+    Pour i ← 0 à 11 Faire
+        Pour j ← 0 à 7 Faire
+            Si T[i][j] > max Alors
+                max ← T[i][j]
+            FinSi
+        FinPour
+    FinPour
+
+    Écrire ( "La plus grande valeur du tableau est : ", max)
+Fin

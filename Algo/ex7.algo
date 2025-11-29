@@ -1,0 +1,30 @@
+algorithme ex7
+    Variables n, m : entiers
+    Variables i, j : entiers
+    Variables T[n][m] :réel
+    Variables somme : réel
+Début
+    ecrire(procédure("saisir deux nombres entiers : ")
+    début
+        répéter
+            écrire("Saisir N: ") 
+            lire(N)
+        jusqu'à  5 ≤ N ≤ 20
+    fin
+    )
+    Lire n, m
+
+    Pour i ← 1 à n Faire
+        Pour j ← 1 à m Faire
+            Lire T[i][j]
+        FinPour
+    FinPour
+
+    Pour i ← 1 à n Faire
+        somme ← 0
+        Pour j ← 1 à m Faire
+            somme ← somme + T[i][j]
+        FinPour
+        Écrire ("Somme de la ligne ", i, " = ", somme)
+    FinPour
+Fin
