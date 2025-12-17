@@ -1,0 +1,24 @@
+dict(zip)  returns 2 lists as a dictionnary
+...update : changes what u want and if it doesnt exist it ceates a new one 
+voiture.update("marque": "bmw")
+print(voiture)
+.setdefault()prints the value of the key u want and if it doesnt exist it creates a new one and gives it the value u want
+.pop(removes the key and returns its value, if it dosnt exist it returns an error u can customize it.
+print(voiture.pop("mark", "cle n'existe pas."))
+.popitem() removes the last item and returns it as a tuple
+del voiture removes the whole dictionnary, not only the content, the dict itself 
+.sorted (sorts the output)
+print(sorted(voiture, reverse=True)
+for cle in voiture.keys():
+print(cle)
+for velue in voitur.values():
+print(valur)
+
+both
+for cle,valeur in voiture.items():
+print(cle," : ",valeur)
+
+len = pairs number
+
+voitre1 = voiture.copy()
+creates a new dict as a copy of the one u want  

@@ -1,0 +1,94 @@
+''' texte="Bonjour DEV 103"
+caract=input("declarer")
+index= -1
+for i in range(len(texte)):
+    if texte[i]==caract:
+        index = i
+        break
+if index != -1:
+    print("1ere occurence de :", caract,"a l'index:",index)
+else:
+    print("Caractere", caract,"non trouver")'''
+
+'''2- #strip, rstrip, lstrip#
+text=" phyton "
+print(texte.strip()) affiche="phyton"
+print(texte.rstrip())affiche=" phyton"
+print("texte.lstrip())affiche="phyton "
+texte="####python###"
+print(texte.strip(#)) affiche="phyton"'''
+''' 3-REPLACE 
+texte1="bounjour bounjour et encore bonjour"
+texte2=texte1.replace("bounjour", "bounsoir",1<---ch7al mn mara y remplcer ila mdertihach ay remplacer kolchy)
+print(texte2)'''
+'''4- recherche, position and comptage:
+find<--kthseb mn 1
+rfind<--KTHSEB MN -1
+index
+rindex
+count
+syntax: chaine.find(sous_chaine, start, end)
+exemple:
+texte="python est genial"
+print(texte.find("est"))
+print(texte.find("python",10))
+print(texte.find("genial",0,10))
+
+texte1="python est genial. python est puissant."
+print(texte1.rfind("python"))
+print(texte1.rfind("java"))
+print(texte1.rfind("python",0,15))
+
+texte="python est genial"
+print(texte.index("python",))
+print(texte.index("est"))
+
+texte1="python est genial. python est puissant."
+print(texte1.rindex("python"))
+print(texte1.rindex("java"))
+
+texte1="python est genial. python est puissant."
+print(texte1.count("python"))
+print(texte1.count("python",10))
+
+'''
+'''5-decoupage et assemblage:
+methode split()
+texte="bounjour tout le monde"
+mots=texte.split()
+print(mots)
+chaine="2025-01-05"
+parties=chaine.split("-")
+print(parties)
+
+methode partition()
+texte="python est genial"
+resultat=texte.partition("est")
+print(resultat)
+
+methode join()
+mots=["bounjour","tout"," le, monde]
+phrase="".join(mots)
+l=[07,01,2025]
+date="-".join(l)
+'''
+'''6- conversion/longeur
+methode str
+methode len'''
+
+'''II Methode .format
+nom= ali
+age= 30
+print("bonjour, ja m'appelle{} et j'ai {} ans).format(nom,age)
+ * reference par index 
+ * reference par nom
+ pi=3,14149
+ print=("valeur pi" {:.2f}.format(pi)) <--- valeur de pi: 3.14
+ 
+ exemple
+ nom="ali"
+ age=45
+ pi=3.14159
+ print(f"bounjour, je m'appelle)'''
+
+ 

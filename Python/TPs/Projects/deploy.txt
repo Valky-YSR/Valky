@@ -1,0 +1,14 @@
+pip3 install pyistaller
+pyinstaller file.py
+
+sphinx
+create doc docs
+sphinx quickstart
+./make html
+
+readme file
+license file 
+
+to test py files
+test pypi
+

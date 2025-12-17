@@ -1,0 +1,24 @@
+										Sites web statiques
+											2.CSS
+Les proprietes display e visibility:
+
+1. La propriete "display"
+
+la propriete display est utilisee pour controller l'affichage des elements. Les valeurs de "display"
+
+	a- Block : chacun des elements oblige l'elements suivant a aller a la ligne suivant
+
+	b- inline : l'element prent juste ce qu'il a besoin en espace dans la ligne, Le changement du "width" et "height" ne marche pas 
+
+	c- inline-block : inline + possibilite de changer "width""height"
+
+	d- none : l'element supprime + retire du flux normal du document suivant occupe de l'element masque 
+
+La propriete "visibility" 
+
+la propriete visibility est utilise pour controller kes affichages visuel d'un element, tout en conservant ou non son espace lorsque vous voulez masquer un element sans le supprimer du 
+flux de la mise en page. Les valeurs de "visibility" :
+
+	a- visible (valeur par defaut) : l'element est visibie et il occupe l'espace dans le document.
+
+	b- hidden : l'element est masque mais il conserve l'espace dans la page.

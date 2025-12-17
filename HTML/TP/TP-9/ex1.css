@@ -1,0 +1,14 @@
+.elements
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.elem
+{
+    border: 1px solid blue;
+    width: 475px;
+    height: 150px;
+}
+

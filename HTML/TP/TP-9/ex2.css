@@ -1,0 +1,55 @@
+.elements
+{
+    width: 100%;
+}
+.elem:first-child
+{
+    display: block;
+    border: 1px solid blue;
+    width: 100%;
+    height: 50px;
+}
+.elem:last-child
+{
+    display: block;
+    border: 1px solid blue;
+    height: 50px;
+}
+div .elmnt:first-child
+{
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+    border: 1px solid blue;
+
+}
+div .elmnt:nth-child(2)
+{
+    display: inline-block;
+    width: 66%;
+    border: 1px solid blue;
+    height: 75px;
+}
+div .elmnt:nth-child(3)
+{
+    display: inline-block;
+    width: 65%;
+    border: 1px solid blue;
+    height: 75px;
+}
+.elem:nth-child(6)
+{
+    display: inline-block;
+    width: 67%;
+    border: 1px solid blue;
+    height: 75px;
+}
+.elem:nth-child(7)
+{
+    display: inline-block;
+    width: 33%;
+    border: 1px solid blue;
+    height: 75px;
+}
+
+

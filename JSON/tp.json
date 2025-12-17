@@ -1,0 +1,16 @@
+{
+  "nom": "ALi",
+  "age": 22,
+  "etudiant": false,
+  "module":
+  [
+    "python",
+    "Cybersec",
+    "reseaux"
+  ],
+  "adresse":
+  {
+    "ville":"oujda",
+    "pays":"Maroc"
+  }
+}
