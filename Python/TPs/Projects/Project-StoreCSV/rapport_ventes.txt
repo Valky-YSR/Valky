@@ -1,0 +1,18 @@
+Rapport de Ventes
+=================
+
+Produit: Pain
+Prix unitaire: 1.20 DHs
+Quantité vendue: 70
+Chiffre d'affaires: 84.00 DHs
+-------------------------
+Produit: Croissant
+Prix unitaire: 1.50 DHs
+Quantité vendue: 45
+Chiffre d'affaires: 67.50 DHs
+-------------------------
+Produit: Baguette
+Prix unitaire: 0.90 DHs
+Quantité vendue: 80
+Chiffre d'affaires: 72.00 DHs
+-------------------------

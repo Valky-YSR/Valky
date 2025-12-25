@@ -1,4 +1,4 @@
-produits={"id_produit}
+produits={id_produit}
 
 def ajouter_produit():
     id_produit=input("Entrez l'ID du produit : ")
